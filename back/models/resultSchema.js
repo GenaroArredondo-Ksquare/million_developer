@@ -10,7 +10,7 @@ const resultModel = new Schema({
     attempts : { type : Number, default : 0},
     points : { type : Number, default : 0},
     achived : { type : String, default : ''},
-    createdAt : { type : Date, default : Date.now}
+    createdAt : { type : Date, default : Date.now.toLocaleString()}
 })
 
 export default mongoose.model('result', resultModel);

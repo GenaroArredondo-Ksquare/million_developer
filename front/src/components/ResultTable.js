@@ -10,7 +10,7 @@ export default function ResultTable() {
             setData(res)
         })
     })
-
+ 
   return (
     <div>
         <table>
@@ -32,7 +32,7 @@ export default function ResultTable() {
                             <td>{v?.attempts || 0}</td>
                             <td>{v?.points || 0}</td>
                             <td>{v?.achived || ""}</td>
-                            <td>{`${new Date().toLocaleString()}`}</td>
+                            <td>{v?.createdAt|| ''}</td>
                         </tr>
                     ))
                 }

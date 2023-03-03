@@ -33,7 +33,7 @@ export default function Questions({ onChecked }) {
 
   return (
     <div className='questions'>
-        <h2 className='text-light'>{questions?.difficulty}</h2>
+        <h2 className='text-light'>Difficulty: {questions?.difficulty} | Category: {questions.category}</h2>
         <h2 className='text-light'>{questions?.question}</h2>
 
         <ul key={questions?.id}>
