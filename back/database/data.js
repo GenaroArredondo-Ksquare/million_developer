@@ -1,6 +1,7 @@
 export default [
     {
         id: 1,
+        difficulty: 'easy',
         question : "Which keyword should be used to define a value that should not change in the application?",
         options : [
             'var',
@@ -11,6 +12,7 @@ export default [
     },
     {
         id: 2,
+        difficulty: 'easy',
         question : "What type of coercion is automatically performed",
         options : [
             'explicit',
@@ -21,6 +23,7 @@ export default [
     },
     {
         id: 3,
+        difficulty: 'easy',
         question : "When an operator value is NULL, the typeof returned by the unary operator is:",
         options : [
             'Boolean',
@@ -31,6 +34,7 @@ export default [
     },
     {
         id: 4,
+        difficulty: 'easy',
         question : "Symbol used to create an array",
         options : [
             '- -',
@@ -41,6 +45,7 @@ export default [
     },
     {
         id: 5,
+        difficulty: 'easy',
         question : "keyword used to create a class that takes properties from another previously defined class",
         options : [
             'takes',
@@ -51,6 +56,7 @@ export default [
     },
     {
         id: 6,
+        difficulty: 'easy',
         question : "Which function is used to deserialize an object into a JSON string?",
         options : [
             'stringify()',
@@ -61,6 +67,7 @@ export default [
     },
     {
         id: 7,
+        difficulty: 'easy',
         question : "What data type does true/false fall into",
         options : [
             'String',
@@ -71,6 +78,7 @@ export default [
     },
     {
         id: 8,
+        difficulty: 'easy',
         question : "What does the logical operator || stand for?",
         options : [
             'Not',
@@ -81,6 +89,7 @@ export default [
     },
     {
         id: 9,
+        difficulty: 'easy',
         question : "Which function is used to serialize an object into a JSON string?",
         options : [
             'stringify()',
@@ -91,6 +100,7 @@ export default [
     },
     {
         id: 10,
+        difficulty: 'easy',
         question : "aside from dot notation what other method can be used to access an object property",
         options : [
             'bracket notation',

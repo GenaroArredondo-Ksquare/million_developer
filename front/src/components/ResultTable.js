@@ -20,6 +20,7 @@ export default function ResultTable() {
                     <td>Attemps</td>
                     <td>Earn Points</td>
                     <td>Result</td>
+                    <td>Date</td>
                 </tr>
             </thead>
             <tbody>
@@ -31,6 +32,7 @@ export default function ResultTable() {
                             <td>{v?.attempts || 0}</td>
                             <td>{v?.points || 0}</td>
                             <td>{v?.achived || ""}</td>
+                            <td>{`${new Date().toLocaleString()}`}</td>
                         </tr>
                     ))
                 }

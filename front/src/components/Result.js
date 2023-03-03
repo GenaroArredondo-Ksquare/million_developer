@@ -38,7 +38,7 @@ export default function Result() {
 
   return (
     <div className='container'>
-        <h1 className='title text-light'>Quiz Application</h1>
+        <h1 className='title text-light'>Who wants to be a Developer?</h1>
 
         <div className='result flex-center'>
             <div className='flex'>
@@ -54,11 +54,11 @@ export default function Result() {
                 <span className='bold'>{ queue.length || 0}</span>
             </div>
             <div className='flex'>
-                <span>Total Attempts : </span>
+                <span>Total Answered : </span>
                 <span className='bold'>{attempts || 0}</span>
             </div>
             <div className='flex'>
-                <span>Total Earn Points : </span>
+                <span>Points : </span>
                 <span className='bold'>{earnPoints || 0}</span>
             </div>
             <div className='flex'>

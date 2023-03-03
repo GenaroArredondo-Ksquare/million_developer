@@ -3,6 +3,7 @@ const { Schema } = mongoose;
 
 /** question model */
 const questionModel = new Schema({
+    diff: { type : String},
     questions: { type : Array, default: []}, // create question with [] default value
     answers : { type : Array, default: []},
     createdAt: { type: Date, default: Date.now },
