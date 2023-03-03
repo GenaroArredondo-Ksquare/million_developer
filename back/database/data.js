@@ -38,7 +38,7 @@ export default [
     {
         id: 4,
         difficulty: 'intermediate',
-        category: 'classes, objeects, functions',
+        category: 'classes, objects, functions',
         question : "Symbol used to create an array",
         options : [
             '- -',
@@ -50,7 +50,7 @@ export default [
     {
         id: 5,
         difficulty: 'intermediate',
-        category: 'classes, objeects, functions',
+        category: 'classes, objects, functions',
         question : "keyword used to create a class that takes properties from another previously defined class",
         options : [
             'takes',
@@ -62,7 +62,7 @@ export default [
     {
         id: 6,
         difficulty: 'hard',
-        category: 'classes, objeects, functions',
+        category: 'classes, objects, functions',
         question : "Which function is used to deserialize an object into a JSON string?",
         options : [
             'stringify()',
@@ -98,7 +98,7 @@ export default [
     {
         id: 9,
         difficulty: 'intermediate',
-        category: 'classes, objeects, functions',
+        category: 'classes, objects, functions',
         question : "Which function is used to serialize an object into a JSON string?",
         options : [
             'stringify()',
@@ -110,7 +110,7 @@ export default [
     {
         id: 10,
         difficulty: 'hard',
-        category: 'classes, objeects, functions',
+        category: 'classes, objects, functions',
         question : "aside from dot notation what other method can be used to access an object property",
         options : [
             'bracket notation',
